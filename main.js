@@ -12,8 +12,9 @@ const perguntas = [
             {
                 texto: "Músicas calmas e relaxantes.",
                 afirmacao: [
-                 "Você prefere músicas calmas, como lo-fi e jazz, geralmente busca tranquilidade e concentração. " ,
-                 "afirmacao"
+                    "Você prefere músicas calmas, como lo-fi e jazz, geralmente busca tranquilidade e concentração. ",
+                    "afirmacao"
+                ]
             },
             {
                 texto: " Uma música mais animada com batidas eletrizantes ",
@@ -31,8 +32,7 @@ const perguntas = [
             },
             {
                 texto: "Na parte da noite ou madrugada.",
-                afirmacao: " Você ouve música a noite ou na madrugada, busca relaxar, descontrair e preparar a mente para o descanso.
-."
+                afirmacao: " Você ouve música a noite ou na madrugada, busca relaxar, descontrair e preparar a mente para o descanso."
             }
         ]
     },
@@ -45,8 +45,7 @@ const perguntas = [
             },
             {
                 texto: "MPB, samba, lofi ou sertanejo.",
-                afirmacao: "Esses estilos atraem pessoas que apreciam uma conexão mais íntima e tranquila com a música, seja para refletir, relaxar ou celebrar momentos cotidianos.
-"
+                afirmacao: "Esses estilos atraem pessoas que apreciam uma conexão mais íntima e tranquila com a música, seja para refletir, relaxar ou celebrar momentos cotidianos. "
             }
         ]
     },
@@ -59,22 +58,22 @@ const perguntas = [
             },
             {
                 texto: "Internacionais.",
-                afirmacao: "Você prefere músicas internacionais busca uma conexão com estilos e influências globais, explorando uma diversidade de ritmos e culturas."
+                afirmacao: "Você prefere músicas internacionais busca uma conexão com estilos e influências globais, explorando uma diversidade de ritmos e culturas.",
             }
         ]
     },
     {
         enunciado: "Você prefere músicas com letras profundas e emocionais ou músicas mais instrumentais e atmosféricas?",
-        alternativas: [
+        alternativas:[
             {
-                texto: " Músicas com letras profundas e emocionais ",
-                afirmacao: " Você prefere músicas com letras profundas e emocionais geralmente busca uma conexão mais íntima com a música, procurando refletir sobre sentimentos, experiências e histórias que tocam o coração."
+                texto: "Músicas com letras profundas e emocionais",
+                afirmacao: " Você prefere músicas com letras profundas e emocionais geralmente busca uma conexão mais íntima com a música, procurando refletir sobre sentimentos, experiências e histórias que tocam o coração.",
             },
-            
-                texto: "Músicas mais instrumentais e atmosféricas",
-                afirmacao: " Você prefere músicas mais instrumentais e atmosféricas geralmente busca uma experiência mais imersiva, onde o foco está nas texturas sonoras e na ambientação."
+            texto: "Músicas mais instrumentais e atmosféricas",
+            afirmacao: " Você prefere músicas mais instrumentais e atmosféricas geralmente busca uma experiência mais imersiva, onde o foco está nas texturas sonoras e na ambientação.",
             }
         ]
+
     },
 
 ];
