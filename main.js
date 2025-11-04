@@ -7,69 +7,72 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: ", ?",
+        enunciado: "Que tipo de música você costuma ouvir diariamente?",
         alternativas: [
             {
-                texto: "Ver imagens, esquemas, gráficos ou mapas.",
-                afirmacao: "Você aprende melhor quando consegue visualizar as informações em diagramas e imagens."
+                texto: "Músicas calmas e relaxantes.",
+                afirmacao: [
+                 "Você prefere músicas calmas, como lo-fi e jazz, geralmente busca tranquilidade e concentração. " ,
+                 "afirmacao"
+            },
+            {
+                texto: " Uma música mais animada com batidas eletrizantes ",
+                afirmacao: "Você prefere músicas com batidas eletrizantes busca energia e excitação, geralmente em festas ou para se motivar."
 
-            },
-            {
-                texto: "Ouvir explicações e conversar sobre o assunto.",
-                afirmacao: "Você valoriza ouvir boas explicações e trocar ideias para consolidar o conhecimento."
-
             }
         ]
     },
     {
-        enunciado: "Na hora de revisar o conteúdo para uma prova, o que você prefere?",
+        enunciado: "Que horas você costuma ouvir músicas no seu dia a dia?",
         alternativas: [
             {
-                texto: "Refazer exercícios e colocar a mão na massa.",
-                afirmacao: "Você consolida o conhecimento praticando e experimentando na prática."
+                texto: " Na parte da manhã e à tarde.",
+                afirmacao: "Você ouve música de manhã e à tarde busca melhorar o humor e manter a energia e o foco ao longo do dia."
             },
             {
-                texto: "Revisar resumos, mapas mentais ou anotações.",
-                afirmacao: "Você organiza os conteúdos em resumos e isso torna a revisão mais eficiente."
+                texto: "Na parte da noite ou madrugada.",
+                afirmacao: " Você ouve música a noite ou na madrugada, busca relaxar, descontrair e preparar a mente para o descanso.
+."
             }
         ]
     },
     {
-        enunciado: "Quando o professor explica um conteúdo difícil, o que te ajuda mais?",
+        enunciado: " Qual seu estilo de música favorito? ",
         alternativas: [
             {
-                texto: "Que ele faça exemplos passo a passo na lousa.",
-                afirmacao: "Você aprende melhor acompanhando processos organizados e exemplos práticos."
+                texto: " Rock, eletrônica ou funk.",
+                afirmacao: "Esses estilos atraem pessoas que curtem ambientes dinâmicos e cheios de ritmo, buscando expressão e diversão."
             },
             {
-                texto: "Que ele conte histórias, dê comparações ou faça analogias.",
-                afirmacao: "Você conecta melhor os conteúdos quando eles estão ligados a situações cotidianas."
+                texto: "MPB, samba, lofi ou sertanejo.",
+                afirmacao: "Esses estilos atraem pessoas que apreciam uma conexão mais íntima e tranquila com a música, seja para refletir, relaxar ou celebrar momentos cotidianos.
+"
             }
         ]
     },
     {
-        enunciado: "Se precisa estudar sozinho em casa, qual estratégia escolhe?",
+        enunciado: " Você prefere ouvir músicas nacionais ou internacionais?",
         alternativas: [
             {
-                texto: "Assistir videoaulas ou buscar podcasts sobre o tema.",
-                afirmacao: "Você aproveita recursos digitais para aprender com mais dinamismo."
+                texto: "Nacionais.",
+                afirmacao: " Você prefere músicas nacionais valoriza a cultura e as tradições brasileiras, conectando-se com a identidade do país através de estilos como MPB, samba e sertanejo."
             },
             {
-                texto: "Escrever resumos e fazer listas de exercícios.",
-                afirmacao: "Você prefere organizar o conteúdo por conta própria para fixar melhor."
+                texto: "Internacionais.",
+                afirmacao: "Você prefere músicas internacionais busca uma conexão com estilos e influências globais, explorando uma diversidade de ritmos e culturas."
             }
         ]
     },
     {
-        enunciado: "Em um trabalho em grupo, qual papel você assume naturalmente?",
+        enunciado: "Você prefere músicas com letras profundas e emocionais ou músicas mais instrumentais e atmosféricas?",
         alternativas: [
             {
-                texto: "A pessoa que organiza e escreve as ideias de todos.",
-                afirmacao: "Você tem perfil organizado e gosta de estruturar as ideias do grupo."
+                texto: " Músicas com letras profundas e emocionais ",
+                afirmacao: " Você prefere músicas com letras profundas e emocionais geralmente busca uma conexão mais íntima com a música, procurando refletir sobre sentimentos, experiências e histórias que tocam o coração."
             },
-            {
-                texto: "A pessoa que explica oralmente e motiva os colegas.",
-                afirmacao: "Você gosta de comunicar as ideias e ajudar os colegas a compreenderem melhor."
+            
+                texto: "Músicas mais instrumentais e atmosféricas",
+                afirmacao: " Você prefere músicas mais instrumentais e atmosféricas geralmente busca uma experiência mais imersiva, onde o foco está nas texturas sonoras e na ambientação."
             }
         ]
     },
