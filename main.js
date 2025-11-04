@@ -7,7 +7,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Quando você está aprendendo algo novo, o que mais te ajuda?",
+        enunciado: ", ?",
         alternativas: [
             {
                 texto: "Ver imagens, esquemas, gráficos ou mapas.",
